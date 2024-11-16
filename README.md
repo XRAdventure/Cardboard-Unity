@@ -6,11 +6,11 @@
 - En este momento, la versión descargada del SDK de Cardboard es **v1.26.0**.  
 Al instalarlo, Unity solicitará activar el nuevo sistema de entrada (Input System). Es necesario aceptar, y Unity se reiniciará automáticamente. 🔄
 
-![Imagen de referencia](./DocAssets/image-1.png)
+![Imagen de referencia](./DocAssets/image-0.png)
 
 - **Minium API Level**: Android 8.0 "Oreo" (API level 26).  
 - **Target API Level**: Android 13.0 (API level 33)
-![alt text](./DocAssets/image-0.png)
+![alt text](./DocAssets/image-1.png)
 - No es necesario modificar el archivo `AndroidManifest`. ✅
 
 📌 **Nota importante:** Desde la grabación del video, el SDK ha tenido algunos cambios. Para probar la escena y activar las interaciones, será necesario realizar algunos pasos adicionales:  
