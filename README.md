@@ -30,3 +30,53 @@ Al hacer esto el SDK te permitira utilizar el recticle:
 ![alt text](./DocAssets/image-2.png)
 
 ¡Listo! Ahora tu proyecto debería estar configurado correctamente. 🚀
+
+### Capítulo 2 📖
+
+En la nueva versión del SDK, la cámara incluye como hijo una nueva implementación llamada `CardboardReticlePointer`, que reemplaza al antiguo `CameraPointer`.  
+
+Para seguir el tutorial del video, es necesario **desactivar** o **eliminar** el prefab `CardboardReticlePointer` en la jerarquía:  
+
+![Referencia visual](./DocAssets/image-3.png)  
+
+📌 En el video, se utiliza el antiguo `CameraPointer` como base.  
+Para seguir el tutorial al pie de la letra, aquí tienes el código de `CameraPointer`:
+
+```csharp
+using System.Collections;
+using UnityEngine;
+
+public class CameraPointer : MonoBehaviour
+{
+    private const float _maxDistance = 10;
+    private GameObject _gazedAtObject = null;
+
+    public void Update()
+    {
+
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.forward, out hit, _maxDistance))
+        {
+            if (_gazedAtObject != hit.transform.gameObject)
+            {
+                _gazedAtObject?.SendMessage("OnPointerExit");
+                _gazedAtObject = hit.transform.gameObject;
+                _gazedAtObject.SendMessage("OnPointerEnter");
+            }
+        }
+        else
+        {
+            _gazedAtObject?.SendMessage("OnPointerExit");
+            _gazedAtObject = null;
+        }
+        if (Google.XR.Cardboard.Api.IsTriggerPressed)
+        {
+            _gazedAtObject?.SendMessage("OnPointerClick");
+        }
+    }
+}
+```
+
+👾 **Tips adicionales**: 
+- Este código permite manejar eventos como `OnPointerEnter`, `OnPointerExit` y `OnPointerClick` para los objetos con los que el usuario interactúa en la escena.  
+- Recuerda que para interactuar con objecto debes agregarle un collider y el tag `Interactable`
