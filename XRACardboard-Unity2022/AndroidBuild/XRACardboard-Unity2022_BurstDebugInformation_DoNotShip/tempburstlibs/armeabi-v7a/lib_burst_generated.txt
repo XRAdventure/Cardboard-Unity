@@ -26,6 +26,7 @@ Library: C:\Users\medinags\Documents\GitHub\Cardboard-Unity\XRACardboard-Unity20
 --assembly-defines=Unity.RenderPipeline.Universal.ShaderLibrary;
 --assembly-defines=Unity.RenderPipelines.Core.Runtime;
 --assembly-defines=Unity.RenderPipelines.Universal.Runtime;
+--assembly-defines=Unity.TextMeshPro;
 --assembly-defines=Unity.XR.Management;
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
@@ -62,6 +63,7 @@ Library: C:\Users\medinags\Documents\GitHub\Cardboard-Unity\XRACardboard-Unity20
 --assembly-defines=Unity.RenderPipeline.Universal.ShaderLibrary;
 --assembly-defines=Unity.RenderPipelines.Core.Runtime;
 --assembly-defines=Unity.RenderPipelines.Universal.Runtime;
+--assembly-defines=Unity.TextMeshPro;
 --assembly-defines=Unity.XR.Management;
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
