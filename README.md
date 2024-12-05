@@ -3,6 +3,9 @@
 
 ### Capítulo 1 📖
 
+🔗 [Ver video tutorial gratis en YouTube](https://youtu.be/CwgOl1JAyeY) 🎥
+
+
 - En este momento, la versión descargada del SDK de Cardboard es **v1.26.0**.  
 Al instalarlo, Unity solicitará activar el nuevo sistema de entrada (Input System). Es necesario aceptar, y Unity se reiniciará automáticamente. 🔄
 
@@ -32,6 +35,8 @@ Al hacer esto el SDK te permitira utilizar el recticle:
 ¡Listo! Ahora tu proyecto debería estar configurado correctamente. 🚀
 
 ### Capítulo 2 📖
+
+🔗 [Ver video tutorial gratis en YouTube](https://youtu.be/q5AvXfoGAyg) 🎥
 
 En la nueva versión del SDK, la cámara incluye como hijo una nueva implementación llamada `CardboardReticlePointer`, que reemplaza al antiguo `CameraPointer`.  
 
@@ -80,3 +85,13 @@ public class CameraPointer : MonoBehaviour
 👾 **Tips adicionales**: 
 - Este código permite manejar eventos como `OnPointerEnter`, `OnPointerExit` y `OnPointerClick` para los objetos con los que el usuario interactúa en la escena.  
 - Recuerda que para interactuar con objecto debes agregarle un collider y el tag `Interactable`
+
+### Capítulo 3 📖
+
+🔗 [Ver video tutorial gratis en YouTube](https://youtu.be/hu1bMy6woN8) 🎥
+
+Este capítulo se seguir sin ningún problema, no existe cambio alguno. ✨
+
+Recuerda que al momento de crear la interacción de los objetos a partir de los toggles, se debe seleccionar la opción `SetActive` de la parte superior, en donde está `Dynamic bool`.
+
+![Referencia visual](./DocAssets/image-4.png)  
