@@ -2,15 +2,15 @@
 ## Unity 2022
 
 ### Capítulo 1 📖
+**⬇️ Realidad Virtual Google Cardboard Tutorial Unity - Configuración ⬇️**
 
 🔗 [Ver video tutorial gratis en YouTube](https://youtu.be/CwgOl1JAyeY) 🎥
 
 
-- En este momento, la versión descargada del SDK de Cardboard es **v1.26.0**.  
-Al instalarlo, Unity solicitará activar el nuevo sistema de entrada (Input System). Es necesario aceptar, y Unity se reiniciará automáticamente. 🔄
+- En este momento, la versión descargada del SDK de Cardboard es 🔗[**v1.26.0**](https://github.com/googlevr/cardboard-xr-plugin/releases/tag/v1.26.0).  
+Al instalarlo, Unity solicitará activar el nuevo sistema de entrada (Input System). Es necesario aceptar, y Unity se reiniciará automáticamente. 🔄 <img src="./DocAssets/image-0.png" alt="Imagen de referencia" width="400" />
 
-![Imagen de referencia](./DocAssets/image-0.png)
-
+**Player Settings**
 - **Minium API Level**: Android 8.0 "Oreo" (API level 26).  
 - **Target API Level**: Android 13.0 (API level 33)
 ![alt text](./DocAssets/image-1.png)
@@ -35,7 +35,7 @@ Al hacer esto el SDK te permitira utilizar el recticle:
 ¡Listo! Ahora tu proyecto debería estar configurado correctamente. 🚀
 
 ### Capítulo 2 📖
-
+**⬇️ VR Cardboard SELECCIÓN con la mirada - SIN CONTROLES ⬇️**
 🔗 [Ver video tutorial gratis en YouTube](https://youtu.be/q5AvXfoGAyg) 🎥
 
 En la nueva versión del SDK, la cámara incluye como hijo una nueva implementación llamada `CardboardReticlePointer`, que reemplaza al antiguo `CameraPointer`.  
@@ -87,6 +87,7 @@ public class CameraPointer : MonoBehaviour
 - Recuerda que para interactuar con objecto debes agregarle un collider y el tag `Interactable`
 
 ### Capítulo 3 📖
+**⬇️ Cardboard VR - Interacción con Botones ⬇️**
 
 🔗 [Ver video tutorial gratis en YouTube](https://youtu.be/hu1bMy6woN8) 🎥
 
@@ -95,3 +96,10 @@ Este capítulo se seguir sin ningún problema, no existe cambio alguno. ✨
 Recuerda que al momento de crear la interacción de los objetos a partir de los toggles, se debe seleccionar la opción `SetActive` de la parte superior, en donde está `Dynamic bool`.
 
 ![Referencia visual](./DocAssets/image-4.png)  
+
+### Capítulo 4 📖
+**⬇️ ¿Cómo usar Teletransportación en Cardboard? ⬇️**
+
+🔗 [Ver video tutorial gratis en YouTube](https://youtu.be/7uZvH-7F-d4) 🎥
+
+Este capítulo se seguir sin ningún problema, no existe cambio alguno. ✨

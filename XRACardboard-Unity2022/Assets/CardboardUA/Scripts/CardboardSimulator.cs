@@ -9,8 +9,8 @@ public class CardboardSimulator : MonoBehaviour
 
     [SerializeField] private float horizontalSpeed = 0.5f;
     [SerializeField] private float verticalSpeed = 0.5f;
-    [SerializeField] private float rotationX = 0.0f;
-    [SerializeField] private float rotationY = 0.0f;
+    private float rotationX = 0.0f;
+    private float rotationY = 0.0f;
     private Camera cam;
 
     void Start() 
