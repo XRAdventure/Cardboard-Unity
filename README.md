@@ -8,7 +8,8 @@
 
 
 - En este momento, la versión descargada del SDK de Cardboard es 🔗[**v1.26.0**](https://github.com/googlevr/cardboard-xr-plugin/releases/tag/v1.26.0).  
-Al instalarlo, Unity solicitará activar el nuevo sistema de entrada (Input System). Es necesario aceptar, y Unity se reiniciará automáticamente. 🔄 <img src="./DocAssets/image-0.png" alt="Imagen de referencia" width="400" />
+Al instalarlo, Unity solicitará activar el nuevo sistema de entrada (Input System). Es necesario aceptar, y Unity se reiniciará automáticamente. 🔄
+<img src="./DocAssets/image-0.png" alt="Imagen de referencia" width="400" />
 
 **Player Settings**
 - **Minium API Level**: Android 8.0 "Oreo" (API level 26).  
