@@ -16,10 +16,10 @@
 
 ## 📖 Capitulos
 
-- [Capitulo 0](#capitulo-cero-requerimientos)
-- [Capitulo 1](#capitulo-uno-cómo-crear-una-aplicación-de-realidad-aumentada)
-- [Capitulo 2](#capitulo-dos-diseño-de-interfaz-para-realidad-aumentada)
-- [Capitulo 3]
+- [Capitulo 1](#capítulo-1--realidad-virtual-google-cardboard-tutorial-unity---configuración)
+- [Capitulo 2](#capítulo-2--vr-cardboard-selección-con-la-mirada---sin-controles)
+- [Capitulo 3](#capítulo-3-cardboard-vr---interacción-con-botones)
+- [Capitulo 4](#capítulo-4-cómo-usar-teletransportación-en-cardboard)
 
 ## 📞 Contacto
 
