@@ -1,8 +1,35 @@
 # Curso Cardboard
-## Unity 2022
 
-### Capítulo 1 📖
-**⬇️ Realidad Virtual Google Cardboard Tutorial Unity - Configuración ⬇️**
+## Proyecto Unity
+
+🔧 **Consideraciones**
+
+- Este proyecto ha sido creado utilizando **Unity 2022.3.24f1 LTS**.
+- 🚫 El plugin **no soporta Unity 6**. Aunque la aplicación puede compilarse, al ejecutarla se presentan los siguientes errores:
+  ```
+  java.lang.ClassNotFoundException: com.google.cardboard.sdk.qrcode.CardboardParamsUtils
+  java.lang.ClassNotFoundException: com.google.cardboard.sdk.QrCodeCaptureActivity
+  ```
+
+📄 Por favor, asegúrate de usar la versión recomendada de Unity para evitar problemas de compatibilidad.
+
+
+## 📖 Capitulos
+
+- [Capitulo 0](#capitulo-cero-requerimientos)
+- [Capitulo 1](#capitulo-uno-cómo-crear-una-aplicación-de-realidad-aumentada)
+- [Capitulo 2](#capitulo-dos-diseño-de-interfaz-para-realidad-aumentada)
+- [Capitulo 3]
+
+## 📞 Contacto
+
+- **🐼 [Discord](https://discord.gg/TBjZuCSmG2)**
+- **🐦 [Twitter / X ](https://twitter.com/UnityAdventure)**
+- **📷 [Instagram](https://www.instagram.com/unity_adventure)**
+
+
+## Capítulo 1 : Realidad Virtual Google Cardboard Tutorial Unity - Configuración
+⬇️ ⬇️
 
 🔗 [Ver video tutorial gratis en YouTube](https://youtu.be/CwgOl1JAyeY) 🎥
 
@@ -35,8 +62,9 @@ Al hacer esto el SDK te permitira utilizar el recticle:
 
 ¡Listo! Ahora tu proyecto debería estar configurado correctamente. 🚀
 
-### Capítulo 2 📖
-**⬇️ VR Cardboard SELECCIÓN con la mirada - SIN CONTROLES ⬇️**
+## Capítulo 2 : VR Cardboard SELECCIÓN con la mirada - SIN CONTROLES
+⬇️ ⬇️
+
 🔗 [Ver video tutorial gratis en YouTube](https://youtu.be/q5AvXfoGAyg) 🎥
 
 En la nueva versión del SDK, la cámara incluye como hijo una nueva implementación llamada `CardboardReticlePointer`, que reemplaza al antiguo `CameraPointer`.  
@@ -87,9 +115,8 @@ public class CameraPointer : MonoBehaviour
 - Este código permite manejar eventos como `OnPointerEnter`, `OnPointerExit` y `OnPointerClick` para los objetos con los que el usuario interactúa en la escena.  
 - Recuerda que para interactuar con objecto debes agregarle un collider y el tag `Interactable`
 
-### Capítulo 3 📖
-**⬇️ Cardboard VR - Interacción con Botones ⬇️**
-
+## Capítulo 3: Cardboard VR - Interacción con Botones
+⬇️ ⬇️
 🔗 [Ver video tutorial gratis en YouTube](https://youtu.be/hu1bMy6woN8) 🎥
 
 Este capítulo se seguir sin ningún problema, no existe cambio alguno. ✨
@@ -98,8 +125,9 @@ Recuerda que al momento de crear la interacción de los objetos a partir de los 
 
 ![Referencia visual](./DocAssets/image-4.png)  
 
-### Capítulo 4 📖
-**⬇️ ¿Cómo usar Teletransportación en Cardboard? ⬇️**
+## Capítulo 4: ¿Cómo usar Teletransportación en Cardboard?
+
+⬇️ ⬇️
 
 🔗 [Ver video tutorial gratis en YouTube](https://youtu.be/7uZvH-7F-d4) 🎥
 
